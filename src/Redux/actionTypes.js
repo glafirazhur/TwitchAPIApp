@@ -1,1 +1,2 @@
 export const LOAD_APP_DATA = 'LOAD_APP_DATA';
+export const GET_SUBSCRIPTIONS = 'GET_SUBSCRIPTIONS';

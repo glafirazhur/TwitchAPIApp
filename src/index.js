@@ -10,6 +10,8 @@ import initialState from './Redux/initialState';
 
 import App from './Components/App';
 
+require('dotenv').config();
+
 const composeEnhancers = (
   window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__
   && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__({ trace: true, traceLimit: 25 })

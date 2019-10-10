@@ -1,6 +1,8 @@
 import { combineReducers } from 'redux';
 import appReducer from './appReducer';
+import subscriptionsReducer from './subscriptionsReducer';
 
 export default combineReducers({
-  data: appReducer,
+  top: appReducer,
+  subscriptions: subscriptionsReducer,
 });
