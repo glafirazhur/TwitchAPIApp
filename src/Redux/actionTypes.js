@@ -1,2 +1,4 @@
-export const LOAD_APP_DATA = 'LOAD_APP_DATA';
+export const LOAD_TOP_DATA = 'LOAD_TOP_DATA';
 export const GET_SUBSCRIPTIONS = 'GET_SUBSCRIPTIONS';
+
+export const LOGIN_USER = 'LOGIN_USER';

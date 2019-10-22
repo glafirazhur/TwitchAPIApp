@@ -1,8 +1,12 @@
-.top-game-wrap {
+.twitch-app-content {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
+.top-game-wrap {
+  max-height: 400px;
+  overflow-y: scroll;
+}
 
 .top-game__name {
 
